@@ -1,0 +1,144 @@
+<template>
+<HTMLHead>
+
+<script>
+var headID = document.getElementsByTagName("head")[0];
+var ShortcutIcon = document.createElement('link');
+ShortcutIcon.type = 'image/vnd.microsoft.icon';
+ShortcutIcon.rel = 'shortcut icon';
+ShortcutIcon.href = '/UserFiles/Servers/Server_427403/Image/Theme/favicon.ico';
+headID.appendChild(ShortcutIcon);
+
+var Icon = document.createElement('link');
+Icon.type = 'image/vnd.microsoft.icon';
+Icon.rel = 'shortcut icon';
+Icon.href = '/UserFiles/Servers/Server_427403/Image/Theme/favicon.ico';
+headID.appendChild(Icon);
+</script>
+
+
+<meta id="viewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+</HTMLHead>
+
+<div id="wrap">
+
+<div class="wrapper">
+
+<a href="#mMenuCMS" id="mobile-bar"><div class="reso-m-btn">MENU</div></a>
+
+  <div class="top-nav-wrapper container-fluid">
+    <!--<div id="top-nav" class="row">
+         <div style="float: left"><a href="http://www.prairie.illinois.edu/">Prairie Research Institute</a></div>
+         <div style="text-align: right"><a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></div>
+    </div>-->
+    <div id="surveys" class="row">
+<ul>
+      	<li class="first"><a href="http://www.inhs.illinois.edu/">Illinois Natural History Survey</a></li>
+      	<li class="navmarker"> | </li>
+        <li><a href="http://www.isas.illinois.edu">Illinois State Archaeological Survey</a></li>
+      	<li class="navmarker"> | </li>
+        <li><a href="http://www.isgs.illinois.edu/">Illinois State Geological Survey</a></li>
+      	<li class="navmarker"> | </li>
+        <li><a href="http://www.isws.illinois.edu">Illinois State Water Survey</a></li>
+      	<li class="navmarker"> | </li>
+        <li><a href="/" style="color: #ccc;">Illinois Sustainable Technology Center</a></li>
+      </ul>
+</div>
+</div>
+ <div id="header" class="container-fluid">
+
+<div class="sitename">
+<a href="http://www.illinois.edu/"><img  class="img img-responsive" src="/UserFiles/Servers/Server_427403/Image/Illinois-block-I-header.gif" height="30" border="0" alt="University of Illinois at Urbana-Champaign" /></a>
+</div>	
+
+<div class="sitename2">
+<a href="/" title="Home"><img class="img img-responsive" alt="link to ISTC home" src="/UserFiles/Servers/Server_427403/Image/ISTC-header.gif"  height="27" border="0"/></a>
+        </div>
+
+<div class="sitename3">
+<a href="http://www.prairie.illinois.edu/"><img class="img img-responsive" src="/UserFiles/Servers/Server_427403/Image/PRI-header.gif" height="14" border="0" alt="Prairie Research Institute" /></a>
+</div>
+
+<!--<div id="uilogo"><a href="http://illinois.edu"><img width="38" height="50" src="/UserFiles/Servers/Server_427403/Image/Theme/ilogo.gif" alt="University of Illinois at Urbana-Champaign logo" /></a></div>-->
+
+<div id="uilogo150"><a href="http://150.illinois.edu/"><img width="38" height="50" alt="University of Illinois 150 Years" src="/UserFiles/Servers/Server_427403/Image/pri-header-IL150.gif" /></a></div>
+
+ </div> <!-- end header -->
+
+<div id="navbar"><navbar/></div>
+
+
+        <!-- START #search -->
+
+<script>
+  (function() {
+    var cx = '017098295898450803082:qn3948c8aa4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="gcse-searchbox-only"></div>
+
+        <!-- END #search -->
+
+
+    <contents />
+
+</div><!-- end wrapper-->
+  	<div class="clear"></div>
+ <div class="push"></div>
+
+</div>
+<!-- END WRAP -->
+
+<div class="footer" role="contentinfo">
+
+    <div class="pa20">
+      <div class="float-left">
+
+        <h3>Illinois Sustainable Technology Center</h3>
+        <p>One Hazelwood Dr.&lt;br/&gt;
+           Champaign, IL 61820&lt;br/&gt;
+          217-333-8940&lt;br/&gt;</p>
+
+      </div>
+      <div class="float-right">
+
+        <p><credits/>University of Illinois Board of Trustees. All rights reserved.&lt;br/&gt;
+        For permissions information, contact the Illinois Sustainable Technology Center.&lt;br/&gt;
+<a rel="nofollow" href="http://intranet.istc.illinois.edu">ISTC Intranet</a>
+        </p>
+        <p><a href="/login">Admin</a></p>
+  </div>
+
+      <div class="clear"></div>
+    </div>
+      
+
+        <!-- START #pub-links -->
+        <div id="pub-links">
+            <PublishedLinkMenu />
+        </div>
+        <!-- END #pub-links -->
+
+</div>
+<!-- End Footer -->
+    <script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script> 
+  <!--Here are the instructions for implementing Google Analytics on our website.
+
+Copy the following code, then paste it onto every page you want to track immediately before the </body> tag.
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-128074-5");
+pageTracker._trackPageview();
+</script>-->
+
+</template>
