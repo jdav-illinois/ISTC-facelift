@@ -815,21 +815,13 @@ form {
     margin: 0 auto -120px;
 }
 
-/* Set the fixed height of the footer here */
-
-.push,
-.footer {
-    height: 120px;
-}
 
 .footer {
     background-color: #ddd;
-    /*#e2ddc9;*/
     position: relative;
     max-width: 900px;
     margin: 0 auto;
     border: 1px solid #ccc;
-    /*#9d8977;*/
     border-top: none;
 }
 
@@ -844,17 +836,17 @@ form {
 
 .footer h3,
 .footer .h3 {
-    font-size: 12px;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: 700;
     background-color: transparent;
     border: none;
 }
 
 .footer p {
-    font-size: 10px;
+    font-size: .75rem;
 }
 
 .footer .row {
@@ -895,11 +887,9 @@ form {
     font-weight: 700;
 }
 
-
 #ctl00_ContentPlaceHolder1_ctl04_TabBar1_divTabBar {
     margin-top: 70px;
 }
-
 
 /*=======================================
 	SUB-PAGE Style
