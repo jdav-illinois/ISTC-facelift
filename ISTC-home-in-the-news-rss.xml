@@ -1,0 +1,20 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template name="show-attributes">
+		<div class="homepage"><div class="RssFeed">
+		<xsl:for-each select="rssnews">
+			<div class="RssItem">
+				<div class="title"><a><xsl:attribute name="href"><xsl:value-of select="url"/></xsl:attribute><xsl:value-of select="title"/></a></div>
+				
+			<!--<div class="summary"><xsl:value-of disable-output-escaping="yes" select="description"/></div> -->
+			</div>
+		</xsl:for-each>
+            </div></div>
+	</xsl:template>
+	<xsl:template match="/">
+		<xsl:for-each select="*">
+			<xsl:call-template name="show-attributes" />
+		</xsl:for-each>
+
+	</xsl:template>
+
+</xsl:stylesheet>
